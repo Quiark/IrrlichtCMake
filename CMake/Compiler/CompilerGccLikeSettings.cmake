@@ -39,10 +39,10 @@ if (GCC_LIKE_COMPILER)
 		"${CMAKE_CXX_FLAGS} -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing"
 	)
 	SET (CMAKE_CXX_FLAGS_RELEASE
-		"${CMAKE_CXX_FLAGS_RELEASE} -fexpensive-optimizations -O3"
+		"${CMAKE_CXX_FLAGS_RELEASE} -O3"
 	)
 	SET (CMAKE_C_FLAGS_RELEASE
-		"${CMAKE_C_FLAGS_RELEASE} -O3 -fexpensive-optimizations"
+		"${CMAKE_C_FLAGS_RELEASE} -O3"
 	)
 	
 	INCLUDE(CheckCSourceCompiles)
